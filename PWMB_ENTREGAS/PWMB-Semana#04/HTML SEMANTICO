@@ -1,1 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ColabPro</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="estilo.css"/>
+    </head>
+    <body>
+        <header>
+            <h1> ColabPro</h1>
+        </header>
+        <nav>
+            <a href="cadpro.html" target="centro">Login</a>
+            <a href="listapro.html" target="centro">Listagem de serviços</a>            
+            <a href="excpro.html" target="centro">Dúvidas</a> 
+            <a href="altpro.html" target="centro">Contato</a> 
+        </nav>
+        <main>
+            <iframe src="apresentacao.html" name="centro"></iframe>
+        </main>
+        <footer>
+            <p> Desenvolvido por: Kauan</p>
+        </footer>
+    </body>
+</html>
 
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Sobre a empresa ColabPro</h1>
+        <p>
+           A empresa ColabPro é lider de mercado..... 
+        </p>
+    </body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cadastro de produtos</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form method="post" action="salvar_produtos.jsp">
+            <p>
+                <label for="codigo">Código:</label>
+                <input type="text" name="codigo" id="codigo">
+            </p>
+            <p>
+                <label for="nome">Nome do produto:</label>
+                <input type="text" name="nome" id="nome" size="70">
+            </p>  
+            <p>
+                <label for="marca">Marca:</label>
+                <input type="text" name="marca" id="marca">
+            </p> 
+            <p>
+                <label for="preco">Preço:</label>
+                <input type="text" name="preco" id="preco">
+            </p>              
+            <p>
+                <input type="submit" value="Salvar">   
+            </p>
+        </form>    
+    </body>
+</html>
